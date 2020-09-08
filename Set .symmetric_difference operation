@@ -1,0 +1,6 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+a=raw_input()
+eng=set(raw_input().split())
+b=raw_input()
+frn=set(raw_input().split())
+print(len(eng.symmetric_difference(frn)))
