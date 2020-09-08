@@ -1,0 +1,6 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+n=raw_input()
+roll=set(raw_input().split())
+b=raw_input()
+rb=set(raw_input().split())
+print(len(roll|rb))
